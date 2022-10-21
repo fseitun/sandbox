@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "node": "cd node && yarn dev",
+    "js": "echo \"cd js && yarn dev\"",
+    "react": "cd react-js && yarn dev"
   },
   "keywords": [],
   "author": "",
