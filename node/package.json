@@ -2,9 +2,10 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
-    "dev": "nodemon app.js"
+    "js": "nodemon app.js",
+    "ts": "nodemon app.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,11 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^2.0.18"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.4"
   }
 }
