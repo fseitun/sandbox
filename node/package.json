@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "js": "nodemon app.js",
-    "ts": "nodemon app.ts"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +13,5 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.18"
   },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.46.0",
-    "@typescript-eslint/parser": "^5.46.0",
-    "eslint": "^8.29.0",
-    "typescript": "^4.9.4"
-  }
+  "devDependencies": {}
 }
